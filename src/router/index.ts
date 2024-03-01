@@ -42,25 +42,6 @@ const router = createRouter({
           component: () => import('@/views/blog/Blog01Page.vue')
         }
       ]
-    },
-    {
-      path: '/404',
-      name: '404',
-      component: () => import('@/views/404Page.vue')
-    },
-    {
-      path: '/403',
-      name: '403',
-      component: () => import('@/views/403Page.vue')
-    },
-    {
-      path: '/500',
-      name: '500',
-      component: () => import('@/views/500Page.vue')
-    },
-    {
-      path: '/:pathMatch(.*)*',
-      redirect: '/404'
     }
   ],
   scrollBehavior(to, from, savedPosition) {
