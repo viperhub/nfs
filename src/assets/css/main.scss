@@ -1,0 +1,49 @@
+/* @import "./base.css"; */
+
+body {
+  color: var(--color-text-default);
+  background-color: var(--color-bg-primary);
+  font-family: 'IBM Plex Sans JP', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  @apply px-12 py-8 mx-auto;
+}
+
+.main-session {
+  @apply relative justify-center px-10 rounded-t-3xl flex-col z-10 pb-10 flex-grow bg-white border-white;
+}
+
+.main-container {
+  @apply w-full;
+}
+
+button {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.max-w-memo {
+  max-width: 200px;
+  white-space: break-spaces;
+}
+
+.min-w-memo {
+  min-width: 150px;
+}
+
+.memo-content {
+  text-align: left !important;
+}
+
+.select-no-arrow {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+}
