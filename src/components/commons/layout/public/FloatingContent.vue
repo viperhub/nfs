@@ -91,7 +91,7 @@
 
 <script setup lang="ts">
 const goFacebook = () => {
-  window.open('https://www.facebook.com/profile.php?id=100094109272907', '_blank')
+  window.open('https://www.facebook.com/NAfulfillment/ ', '_blank')
 }
 
 const call = () => {

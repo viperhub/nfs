@@ -15,20 +15,34 @@ const slides: Slide[] = [
   {
     title: 'Dịch vụ hậu cần Fulfillment',
     content:
-      'Dịch vụ hậu cần fulfillment tại Đông Nam Á là một giải pháp toàn diện giúp các doanh nghiệp quản lý và thực hiện các quy trình sau khi bán hàng một cách hiệu quả và linh hoạt. Với sự chuyên nghiệp và kinh nghiệm, chúng tôi cung cấp dịch vụ bao gồm lưu kho, đóng gói, giao hàng và quản lý hàng hóa, giúp khách hàng tập trung vào việc phát triển kinh doanh mà không lo lắng về các hoạt động logisitcs phức tạp. Đội ngũ của chúng tôi cam kết mang lại sự tiện lợi, tin cậy và linh hoạt để đáp ứng mọi nhu cầu của quý khách hàng.',
-    images: 'images/slide-1.jpeg'
+      '<div><p>NA Fulfillment sẽ hỗ trợ khách hàng thành lập đội ngũ nội bộ tại thị trường Đông Nam Á, bao gồm:</p><ul><li>Hoạt động văn phòng, kho bãi</li><li>Tuyển dụng và đào tạo Telesale, CSR, Bill of Lading, Logistics Team - Hồ sơ doanh nghiệp, thủ tục thuế, thủ tục pháp lý</li><li>Đăng ký tài khoản VIP riêng tại các đơn vị vận chuyển lớn như J&T, Ninja, Flash với mức chiết khấu cao 50% phí vận chuyển và đồng giá 1,5% phí COD</li></ul><p>Sau đó, NA Fulfillment sẽ hỗ trợ khách hàng vận hành đội ngũ nội bộ cũng như xử lý các vấn đề phát sinh tại Thailand, Malaysia, Philippines.</p></div>',
+    images: 'images/slide-01.jpg'
   },
   {
-    title: 'Dịch vụ hỗ trợ tìm nguồn hàng',
+    title: 'FULFILLMENT SERVICE',
     content:
-      'Dịch vụ hỗ trợ tìm nguồn hàng tại Đông Nam Á là lời giải cho các doanh nghiệp muốn mở rộng hoặc tối ưu hóa chuỗi cung ứng của họ. Chúng tôi cung cấp một mạng lưới đối tác đáng tin cậy, được chọn lọc kỹ lưỡng trên toàn khu vực Đông Nam Á, giúp khách hàng tìm kiếm và chọn lựa những nguồn hàng chất lượng với giá cả cạnh tranh nhất. Với sự hiểu biết sâu sắc về thị trường và kinh nghiệm trong ngành, chúng tôi cam kết mang đến sự hỗ trợ toàn diện và chuyên nghiệp, giúp khách hàng tiết kiệm thời gian và chi phí, đồng thời tối đa hóa lợi ích từ việc kinh doanh tại Đông Nam Á.',
-    images: 'images/slide-2.jpeg'
+      '<div><p>NA cung cấp các dịch vụ hoàn thiện đơn hàng bao gồm:</p> <ul > <li>Telesales</li><li>Chat mess</li><li>Chăm sóc khách hàng</li><li>Logistics</li><li>Storage</li></ul><p >NA Fulfillment luôn tự hào với đội ngũ vận hành chuyên nghiệp, có nhiều năm kinh nghiệm và hỗ trợ hàng chục công ty với 400.000 đơn hàng tại Thailand, Malaysia, Philippines.</p></div>',
+    images: 'images/slide-02.jpg'
+  },
+  {
+    title: 'DỊCH VỤ VẬN CHUYỂN QUỐC TẾ',
+    content:
+      '<div><p>Hiện nay NA Fulfillment là một trong những đại lý lớn về vận chuyển quốc tế nên giá vận chuyển luôn được đảm bảo tối ưu nhất cho khách hàng trong hệ thống NA như sau:</p> <ul > <li>Vận chuyển Trung Quốc, Việt Nam</li><li>Vận chuyển về Việt Nam Thailand, Malaysia, Philippines</li></ul></div>',
+    images: 'images/slide-03.jpg'
+  },
+  {
+    title: 'DỊCH VỤ VẬN CHUYỂN QUỐC TẾ',
+    content:
+      '<div><p>Hiện nay NA Fulfillment là một trong những đại lý lớn về vận chuyển quốc tế nên giá vận chuyển luôn được đảm bảo tối ưu nhất cho khách hàng trong hệ thống NA như sau:</p> <ul > <li>Vận chuyển Trung Quốc, Việt Nam</li><li>Vận chuyển về Việt Nam Thailand, Malaysia, Philippines</li></ul></div>',
+    images: 'images/slide-03.jpg'
+  },
+  {
+    title: 'HỖ TRỢ KIỂM TRA THỊ TRƯỜNG MIỄN PHÍ',
+    content:
+      '<div><p>Đối với mỗi sản phẩm, ngành hàng khách hàng, cách thức thâm nhập thị trường và thử nghiệm sản  luôn khác nhau. Nhận thấy điều đó, NA Fulfillment sẽ hỗ trợ tìm kiếm và thử nghiệm thị trường MIỄN PHÍ cho khách hàng, giúp bạn tối ưu hóa chi phí và thời gian thử nghiệm thị trường.</p></div>',
+    images: 'images/slide-04.jpeg'
   }
 ]
-
-const goToMarket = (url: string) => {
-  window.open(url, '_blank')
-}
 
 const currentIndex = ref(0)
 
@@ -54,8 +68,6 @@ const showServiceButton1 = ref<boolean>(false)
 const showServiceButton2 = ref<boolean>(false)
 const showServiceButton3 = ref<boolean>(false)
 const showServiceButton4 = ref<boolean>(false)
-const showServiceButton5 = ref<boolean>(false)
-const showServiceButton6 = ref<boolean>(false)
 </script>
 
 <template>
@@ -85,9 +97,10 @@ const showServiceButton6 = ref<boolean>(false)
                     </h1>
                   </div>
                   <div class="mt-4 w-full md:w-3/4">
-                    <p class="text-sm md:text-base text-white transition duration-500">
-                      {{ slide.content }}
-                    </p>
+                    <p
+                      class="text-sm md:text-base text-white transition duration-500"
+                      v-html="slide.content"
+                    ></p>
                   </div>
                 </div>
               </div>
@@ -136,18 +149,86 @@ const showServiceButton6 = ref<boolean>(false)
         data-aos="fade-left"
       >
         <div>
-          <h2 class="text-3xl font-bold text-orange-500">NA Fulfillment</h2>
-          <p class="mt-6 text-orange-600">Đối Tác Tin Cậy Cho Các Doanh Nghiệp Tại Đông Nam Á</p>
-          <p class="mt-6 text-gray-600">
-            Chào mừng đến với công ty fulfillment hàng đầu với hơn 10 năm kinh nghiệm trong ngành.
-            Chúng tôi tự hào là đối tác tin cậy cho các doanh nghiệp trên toàn cầu, cung cấp các
-            giải pháp hậu cần toàn diện và chất lượng cao. Với sự chuyên nghiệp, đội ngũ giàu kinh
-            nghiệm và cơ sở hạ tầng hiện đại, chúng tôi cam kết đem lại dịch vụ vượt trội, từ việc
-            lưu kho, đóng gói đến vận chuyển và quản lý hàng hóa, giúp khách hàng tập trung hoàn
-            toàn vào việc phát triển kinh doanh của mình mà không lo lắng về các vấn đề logisitcs
-            phức tạp. Hãy đồng hành cùng chúng tôi để thúc đẩy sự thành công và phát triển bền vững
-            của bạn!
+          <h2 class="text-xl font-bold text-orange-500">
+            NA Fulfillment - Your Trusted Fulfillment Partner
+          </h2>
+          <p class="text-md mb-6">
+            Với kinh nghiệm 4 năm làm việc tại thị trường Fulfillment Thái Lan – Philippines –
+            Malaysia – Lào, chúng tôi luôn tự hào là người bạn đồng hành uy tín và tận tâm, mang đến
+            cho khách hàng sự hài lòng thông qua những trải nghiệm chất lượng. chất lượng ở một mức
+            giá hợp lý.
           </p>
+
+          <p class="text-md mb-6">Các dịch vụ của chúng tôi bao gồm:</p>
+
+          <ul class="list-disc ml-8 mb-6">
+            <li>Hỗ trợ SETUP các công ty thương mại điện tử</li>
+            <li>
+              Cung cấp dịch vụ hoàn thiện đơn hàng từ kho bãi, telesale, chăm sóc khách hàng, chuyển
+              tiền về Việt Nam và các văn bản pháp luật.
+            </li>
+            <li>Cung cấp dịch vụ vận chuyển quốc tế với GIÁ RẺ nhất thị trường</li>
+            <li>
+              Thuê tài khoản vận chuyển nội địa như J&T Express, Ninja Va,Express với chiết khấu vận
+              chuyển lên tới 100% và COD đồng giá 1,5%
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </SessionContent>
+
+  <SessionContent title="NA FULFILLMENT - TAKE CARE BY HEART" description="">
+    <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-4">
+      <div class="flex items-center justify-center bg-white">
+        <div class="max-w-md h-[300px] rounded-3xl p-px border-solid border-2 border-orange-600">
+          <div class="rounded-[calc(1.5rem-1px)] p-4 bg-white">
+            <div class="m-2 flex gap-4 items-center">
+              <div>
+                <h3 class="text-lg font-bold text-gray-700">Tìm hiểu thị trường</h3>
+              </div>
+            </div>
+            <p class="text-gray-700">
+              Với kinh nghiệm hoạt động tại thị trường ĐÔNG NAM Á từ năm 2015, số lượng hồ sơ được
+              xử lý trung bình mỗi tháng là 300.000 - 400.000 hồ sơ. NA Fulfillment tự tin với quy
+              trình vận hành tất cả các khâu từ Telesale, chăm sóc khách hàng, kho bãi và tài chính.
+              Dễ dàng tối ưu hóa và giải quyết các vấn đề trong quá trình vận hành giúp khách hàng
+              đạt được kết quả kinh doanh tốt nhất.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center justify-center bg-white">
+        <div class="max-w-md h-[300px] rounded-3xl p-px border-solid border-2 border-orange-600">
+          <div class="rounded-[calc(1.5rem-1px)] p-4 bg-white">
+            <div class="m-2 flex gap-4 items-center">
+              <div>
+                <h3 class="text-lg font-bold text-gray-700">HUMAN RESOURCES</h3>
+              </div>
+            </div>
+            <p class="text-gray-700">
+              NA Fulfillment có đội ngũ nhân viên là người bản địa tại các thị trường Philippines,
+              Malaysia,Thailand am hiểu thị trường, giúp khách hàng tìm được nguồn hàng chất lượng
+              với giá cạnh tranh, luôn sẵn sàng hỗ trợ giải quyết các vấn đề cho khách hàng một cách
+              nhanh chóng và đạt hiệu quả cao.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center justify-center bg-white">
+        <div class="max-w-md h-[300px] rounded-3xl p-px border-solid border-2 border-orange-600">
+          <div class="rounded-[calc(1.5rem-1px)] p-4 bg-white">
+            <div class="m-2 flex gap-4 items-center">
+              <div>
+                <h3 class="text-lg font-bold text-gray-700">DISCOUNT DOMESTIC SHIPPING</h3>
+              </div>
+            </div>
+            <p class="text-gray-700">
+              Hiện nay NA Fulfillment là một trong những đối tác hàng đầu của các đơn vị vận chuyển
+              như J&T, Ninja Van nên tài khoản của NA được miễn phí Ship và COD đồng giá 1,5% giúp
+              khách hàng tối ưu hóa chi phí vận hành.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -155,7 +236,7 @@ const showServiceButton6 = ref<boolean>(false)
 
   <SessionContent
     title="Quy Trình Fulfillment"
-    description="Fulfillment là một trong những mô hình kinh doanh phát triển nhanh nhất trong ngành Thương mại điện tử. Sự thâm nhập nhanh chóng của các dịch vụ Internet và số lượng khách hàng có nhu cầu mua sắm trực tuyến tăng đáng kể là hai yếu tố thúc đẩy nhu cầu về các dịch vụ E-Commerce fulfillment trên toàn thế giới. Sử dụng dịch vụ Fulfillment là một giải pháp tối ưu giúp doanh nghiệp, đơn vị, công ty và cá nhân tiết kiệm được chi phí, giảm thiểu được việc phải thuê nhiều nhân công hay giải quyết công công đoạn hậu cần sau mua."
+    description="Bằng cách hợp tác với NA Fulfillment, các doanh nghiệp có thể tận dụng các dịch vụ toàn diện trong hệ sinh thái của NA. Điều này cho phép các doanh nghiệp thiết lập một chu trình liền mạch bắt đầu từ thử nghiệm sản phẩm và nhập khẩu hàng hóa từ Trung Quốc đến quản lý các giao dịch thu tiền khi giao hàng. Sự hợp tác như vậy sẽ giúp các doanh nghiệp tối ưu hóa hoạt động của họ và đạt được kết quả kinh doanh đáng kể."
   >
     <div class="grid grid-cols-1 gap-6 px-4 py-4 mx-auto md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
       <div
@@ -165,8 +246,9 @@ const showServiceButton6 = ref<boolean>(false)
           class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
         >
           <img
-            src="https://cdn.tuoitre.vn/471584752817336320/2023/7/14/photo-1689322997464-1689322997518742017271.jpg"
+            src="https://www.shopbase.com/blog/wp-content/uploads/2022/03/fulfilment-la-gi-7.jpg"
             alt="ui/ux review check"
+            class="object-cover h-48 w-full"
           />
           <div
             class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"
@@ -177,14 +259,15 @@ const showServiceButton6 = ref<boolean>(false)
             <h5
               class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
             >
-              Tư Vấn Và Lựa Chọn
+              Kho
             </h5>
           </div>
           <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
-            Với kinh nghiệm và kiến thức sâu sắc về thị trường Đông Nam Á, chúng tôi hân hạnh đưa ra
-            những tư vấn chuyên sâu để hỗ trợ quý vị trong quá trình này. Đầu tiên, chúng tôi sẽ
-            phân tích cẩn thận về đặc điểm và tiềm năng của từng thị trường, từ đó đưa ra những
-            phương án hợp tác phù hợp và chiến lược hiệu quả.
+            tiếp nhận hàng hoá từ khách hàng gửi về sau đó kiểm đếm phân loại hàng hoá => nhận đơn
+            hàng và đóng gói theo đơn hàng => gửi cho đvvc j&t, flash => sau khi gửi đơn đi thì sẽ
+            có bộ vận vận đơn và care đơn gọi điện nhắn tin cho khách hàng nhận hàng để giảm tỉ lệ
+            hoàn => sau thời gian gửi đơn đi thì sẽ nhận cod và quy đổi thành tiền việt gửi lại cho
+            khách hàng
           </p>
         </div>
       </div>
@@ -196,8 +279,9 @@ const showServiceButton6 = ref<boolean>(false)
           class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
         >
           <img
-            src="https://sudospaces.com/ketoanleanh/2020/10/hop-dong-lao-dong.jpg"
+            src="https://cdn1.123job.vn/123job/uploads/2020/10/27/2020_10_27______b2a32b413fd004b35c16b7b462bdf510.jpg"
             alt="ui/ux review check"
+            class="object-cover h-48 w-full"
           />
           <div
             class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"
@@ -208,13 +292,17 @@ const showServiceButton6 = ref<boolean>(false)
             <h5
               class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
             >
-              Ký Hợp Đồng
+              Sale
             </h5>
           </div>
           <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
-            Sau khi quý vị đã chọn lựa được những đối tác phù hợp, chúng tôi sẽ hỗ trợ quý vị trong
-            việc ký kết hợp đồng. Chúng tôi cam kết đưa ra những hợp đồng minh bạch, rõ ràng và hợp
-            lý, giúp quý vị an tâm và tin tưởng trong quá trình hợp tác.
+            có bao gồm sale mess và sale call
+            <br />
+            + sale mess sẽ vào page của khách hàng và trả lời tin nhắn khách hàng mua sắm sản phẩm
+            và chuyển hoá thành đơn hàng
+            <br />
+            + sale call sẽ vào nhận data từ marketing ( khách hàng thuê fulfill) để gọi tư vấn - các
+            nhận - hẹn nhận đơn hàng
           </p>
         </div>
       </div>
@@ -226,8 +314,9 @@ const showServiceButton6 = ref<boolean>(false)
           class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
         >
           <img
-            src="https://vietnamcleanroom.com/vcr-media/23/6/5/quy-trinh-luu-tru-tai-lieu-iso.jpg"
+            src="https://suno.vn/blog/wp-content/uploads/2018/11/meo-ship-hang-an-toan-cho-cac-shop-online-707x400.jpg"
             alt="ui/ux review check"
+            class="object-cover h-48 w-full"
           />
           <div
             class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"
@@ -238,99 +327,13 @@ const showServiceButton6 = ref<boolean>(false)
             <h5
               class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
             >
-              Triển khai tìm nguồn hàng và lưu trữ
+              Vận chuyển
             </h5>
           </div>
           <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
-            Chúng tôi sẽ hỗ trợ quý vị trong việc tìm kiếm nguồn hàng chất lượng và lưu trữ hàng hóa
-            tại các kho lưu trữ hiện đại, đảm bảo an toàn và tiện lợi cho quý vị.
-          </p>
-        </div>
-      </div>
-
-      <div
-        class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
-      >
-        <div
-          class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
-        >
-          <img
-            src="https://dichvulogistics.vn/uploads/pictures/611e14b00ae4861d92421973/content_quy-cach-dong-goi-hang-hoa-2.jpg"
-            alt="ui/ux review check"
-          />
-          <div
-            class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"
-          ></div>
-        </div>
-        <div class="p-6">
-          <div class="mb-3 flex items-center justify-between">
-            <h5
-              class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
-            >
-              Đóng Gói, Bàn Giao
-            </h5>
-          </div>
-          <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
-            Trong quá trình này, chúng tôi sẽ hỗ trợ quý vị trong việc đóng gói hàng hóa, chuẩn bị
-            và bàn giao hàng hóa cho đối tác vận chuyển một cách nhanh chóng và chính xác.
-          </p>
-        </div>
-      </div>
-
-      <div
-        class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
-      >
-        <div
-          class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
-        >
-          <img
-            src="https://images.fpt.shop/unsafe/filters:quality(90)/fptshop.com.vn/uploads/images/tin-tuc/174904/Originals/tra-cuu-don-hang-bang-do-dien-thoai-1.jpg"
-            alt="ui/ux review check"
-          />
-          <div
-            class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"
-          ></div>
-        </div>
-        <div class="p-6">
-          <div class="mb-3 flex items-center justify-between">
-            <h5
-              class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
-            >
-              Nhập dữ liệu và theo dõi đơn hàng
-            </h5>
-          </div>
-          <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
-            Đối soát hàng hóa, nhập dữ liệu và theo dõi đơn hàng một cách chính xác và kịp thời.
-          </p>
-        </div>
-      </div>
-
-      <div
-        class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
-      >
-        <div
-          class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
-        >
-          <img
-            src="https://www.vib.com.vn/wps/wcm/connect/7943c1f0-317a-471a-a348-e074275b54b1/1/ty-gia-hoi-doai-1.webp?MOD=AJPERES"
-            alt="ui/ux review check"
-          />
-          <div
-            class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"
-          ></div>
-        </div>
-        <div class="p-6">
-          <div class="mb-3 flex items-center justify-between">
-            <h5
-              class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
-            >
-              Đổi Tiền Và Chuyển Giao Lại Cho Đối Tác
-            </h5>
-          </div>
-          <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
-            Sau khi các quá trình hoàn tất và đơn hàng đã được giao thành công, chúng tôi sẽ hỗ trợ
-            quý vị trong việc đổi tiền và chuyển giao lại cho đối tác một cách nhanh chóng và chính
-            xác.
+            Dịch vụ ff hỗ trợ khách hàng đặt hàng , tìm hàng và deal giá nhập sản phẩm hộ khách hàng
+            tại bản địa hoặc ở trung quốc vận chuyển tới các nước đông nam á .( vận chuyển có đường
+            bộ - đường bay - đường biển )
           </p>
         </div>
       </div>
@@ -339,10 +342,10 @@ const showServiceButton6 = ref<boolean>(false)
 
   <SessionContent
     title="Dịch Vụ"
-    description="Chúng tôi cung cấp các dịch vụ hậu cần và hỗ trợ tìm nguồn hàng chất lượng"
+    description="NA Fulfillment là một trong những công ty hàng đầu tại Việt Nam cung cấp các hoạt động dịch vụ Fulfillment cho doanh nghiệp. Với thế mạnh là đơn vị giàu kinh nghiệm, sở hữu những chính sách đặc biệt từ các hãng tàu lớn cũng như sở hữu kho bãi NỘI ĐỊA chất lượng đáp ứng mọi nhu cầu của khách hàng.( NOTE : DỊCH VỤ NÀY CHIA THEO DẠNG TỪNG Ô CẠNH NHAU CHO KHÁCH HÀNG CÓ CÁI NHÌN TỔNG QUAN VỀ DỊCH VỤ BÊN MÌNH )"
   >
     <div class="justify-center max-w-6xl px-4 py-4 mx-auto lg:py-0">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
         <div
           class="rounded-lg overflow-hidden shadow-lg flex flex-col transition duration-500 hover:scale-90"
           @mouseover="showServiceButton1 = true"
@@ -367,9 +370,20 @@ const showServiceButton6 = ref<boolean>(false)
               <h2 class="mb-3 text-base font-semibold">Dịch vụ hậu cần cần fulfillment</h2>
               <div class="flex items-center justify-between mb-3">
                 <p class="text-sm font-medium">
-                  Na Fulfillment cung cấp dịch vụ hậu cần fulfillment toàn diện, giúp khách hàng
-                  quản lý và thực hiện các quy trình sau khi bán hàng một cách hiệu quả và linh
-                  hoạt.
+                  NA Fulfillment sẽ hỗ trợ khách hàng thành lập đội ngũ nội bộ tại Philippines, bao
+                  gồm:
+                  <br />
+                  - Hoạt động văn phòng, kho bãi
+                  <br />
+                  - Tuyển dụng, đào tạo đội ngũ quý Telesale, chăm sóc khách hàng, vận đơn kho
+                  <br />
+                  - Hồ sơ doanh nghiệp, thủ tục thuế, thủ tục pháp lý
+                  <br />
+                  - Đăng ký tài khoản VVIP riêng tại các đơn vị vận chuyển lớn như J&T, Ninja,
+                  <br />
+                  - Flash với mức chiết khấu cao 100% phí vận chuyển và 1,5% phí COD. Sau đó, NA
+                  Fulfillment sẽ hỗ trợ khách hàng vận hành đội ngũ in-house cũng như xử lý các vấn
+                  đề phát sinh tại thị trường Đông Nam Á.
                 </p>
               </div>
             </div>
@@ -394,7 +408,7 @@ const showServiceButton6 = ref<boolean>(false)
           <div class="bg-white rounded-md">
             <img
               class="object-cover w-full h-48 rounded-t-md"
-              src="https://hyepost.com/medias/public/20210701/kinh%20nghiem%20gui%20hang%20dong%20nam%20a-2.jpg"
+              src="https://bizweb.dktcdn.net/100/366/963/files/fulfillment-la-gi-2.jpg?v=1651544243877"
               alt=""
             />
           </div>
@@ -407,11 +421,22 @@ const showServiceButton6 = ref<boolean>(false)
                   Hoạt động
                 </span>
               </div>
-              <h2 class="mb-3 text-base font-semibold">Dịch vụ vận chuyển hàng hóa</h2>
+              <h2 class="mb-3 text-base font-semibold">Dịch vụ Fulfillment</h2>
               <div class="flex items-center justify-between mb-3">
                 <p class="text-sm font-medium">
-                  Chúng tôi cung cấp dịch vụ vận chuyển hàng hóa trên toàn Đông Nam Á, giúp khách
-                  hàng tối ưu chi phí và thời gian vận chuyển.
+                  NA cung cấp các dịch vụ hoàn thiện đơn hàng bao gồm:
+                  <br />
+                  - Telesales
+                  <br />
+                  - Chat mess
+                  <br />
+                  - Chăm sóc khách hàng
+                  <br />
+                  - Logistics
+                  <br />
+                  - Storage NA Fulfillment luôn tự hào với đội ngũ vận hành chuyên nghiệp, có nhiều
+                  năm kinh nghiệm và hỗ trợ hàng chục công ty với 400.000 đơn hàng tại Thailand,
+                  Malaysia, Philippines
                 </p>
               </div>
             </div>
@@ -436,7 +461,7 @@ const showServiceButton6 = ref<boolean>(false)
           <div class="bg-white rounded-md">
             <img
               class="object-cover w-full h-48 rounded-t-md"
-              src="https://blog.dktcdn.net/files/phan-mem-quan-ly-kho-4.jpg"
+              src="https://atls.vn/wp-content/uploads/2021/03/HTL-009.jpg"
               alt=""
             />
           </div>
@@ -449,12 +474,16 @@ const showServiceButton6 = ref<boolean>(false)
                   Hoạt động
                 </span>
               </div>
-              <h2 class="mb-3 text-base font-semibold">HỖ TRỢ TÌM NGUỒN HÀNG</h2>
+              <h2 class="mb-3 text-base font-semibold">DỊCH VỤ VẬN CHUYỂN QUỐC TẾ</h2>
               <div class="flex items-center justify-between mb-3">
                 <p class="text-sm font-medium">
-                  Với mạng lưới đối tác đáng tin cậy, được chọn lọc kỹ lưỡng trên toàn khu vực Đông
-                  Nam Á, chúng tôi hỗ trợ quý vị tìm kiếm và chọn lựa những nguồn hàng chất lượng
-                  với giá cả cạnh tranh nhất.
+                  Hiện nay NA Fulfillment là một trong những đại lý lớn về vận chuyển quốc tế nên
+                  giá vận chuyển luôn được đảm bảo tối ưu nhất cho khách hàng trong hệ thống NA như
+                  sau:
+                  <br />
+                  - Vận chuyển Trung Quốc, Việt Nam
+                  <br />
+                  - Vận chuyển về Việt Nam Thailand, Malaysia, Philippines
                 </p>
               </div>
             </div>
@@ -479,7 +508,7 @@ const showServiceButton6 = ref<boolean>(false)
           <div class="bg-white rounded-md">
             <img
               class="object-cover w-full h-48 rounded-t-md"
-              src="https://media.loveitopcdn.com/7985/telesales-la-gi-1.jpg"
+              src="https://accgroup.vn/wp-content/uploads/2022/10/cach-moi-de-tra-cuu-bhxh_0204112908-2.jpg"
               alt=""
             />
           </div>
@@ -492,11 +521,13 @@ const showServiceButton6 = ref<boolean>(false)
                   Hoạt động
                 </span>
               </div>
-              <h class="mb-3 text-base font-semibold">ĐỘI NGŨ TELESALES CHUYÊN NGHIỆP</h>
+              <h class="mb-3 text-base font-semibold">HỖ TRỢ KIỂM TRA THỊ TRƯỜNG MIỄN PHÍ </h>
               <div class="flex items-center justify-between mb-3">
                 <p class="text-sm font-medium">
-                  Chúng tôi cung cấp dịch vụ telesales chuyên nghiệp, giúp quý vị tối ưu hóa chiến
-                  lược kinh doanh và tiếp cận khách hàng một cách hiệu quả.
+                  Đối với mỗi sản phẩm, ngành hàng khách hàng, cách thức thâm nhập thị trường và thử
+                  nghiệm sản phẩm luôn khác nhau. Nhận thấy điều đó, NA Fulfillment sẽ hỗ trợ tìm
+                  kiếm và thử nghiệm thị trường MIỄN PHÍ cho khách hàng, giúp bạn tối ưu hóa chi phí
+                  và thời gian thử nghiệm thị trường.
                 </p>
               </div>
             </div>
@@ -513,109 +544,20 @@ const showServiceButton6 = ref<boolean>(false)
             >
           </button>
         </div>
-        <div
-          class="rounded-lg overflow-hidden shadow-lg flex flex-col transition duration-500 hover:scale-90"
-          @mouseover="showServiceButton5 = true"
-          @mouseleave="showServiceButton5 = false"
-        >
-          <div class="bg-white rounded-md">
-            <img
-              class="object-cover w-full h-48 rounded-t-md"
-              src="https://cdn.tgdd.vn/hoi-dap/1307810/ship-cod-la-gi-uu-nhuoc-diem-ra-sao-quy-trinh-mua-chuyen2.jpg"
-              alt=""
-            />
-          </div>
-          <div class="bg-white rounded-md">
-            <div class="p-4">
-              <div class="flex items-center justify-between mb-3">
-                <span
-                  class="inline-block px-2 py-1 text-sm text-orange-500 rounded-full bg-orange-50"
-                >
-                  Hoạt động
-                </span>
-              </div>
-              <h class="mb-3 text-base font-semibold">DỊCH VỤ SHIPPING COD</h>
-              <div class="flex items-center justify-between mb-3">
-                <p class="text-sm font-medium">
-                  Tại Đông Nam Á, dịch vụ COD được sử dụng vô cùng phổ biến. Chúng tôi cung cấp dịch
-                  vụ shipping COD toàn diện, giúp quý vị tối ưu hóa chi phí và thời gian vận chuyển.
-                </p>
-              </div>
-            </div>
-          </div>
-          <button
-            v-show="showServiceButton5"
-            class="absolute inset-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 text-white"
-          >
-            <a
-              href="tel:0968959567"
-              class="px-4 py-2 text-center text-gray-900 bg-orange-300 rounded-md hover:bg-orange-400"
-            >
-              Liên hệ ngay</a
-            >
-          </button>
-        </div>
-        <div
-          class="rounded-lg overflow-hidden shadow-lg flex flex-col transition duration-500 hover:scale-90"
-          @mouseover="showServiceButton6 = true"
-          @mouseleave="showServiceButton6 = false"
-        >
-          <div class="bg-white rounded-md">
-            <img
-              class="object-cover w-full h-48 rounded-t-md"
-              src="https://www.shopbase.com/blog/wp-content/uploads/2022/03/e-fulfillment-la-gi-1.jpg"
-              alt=""
-            />
-          </div>
-          <div class="bg-white rounded-md">
-            <div class="p-4">
-              <div class="flex items-center justify-between mb-3">
-                <span
-                  class="inline-block px-2 py-1 text-sm text-orange-500 rounded-full bg-orange-50"
-                >
-                  Hoạt động
-                </span>
-              </div>
-              <h class="mb-3 text-base font-semibold">TƯ VẤN GIẢI PHÁP FULLFILLMENT</h>
-              <div class="flex items-center justify-between mb-3">
-                <p class="text-sm font-medium">
-                  Ngoài những dịch vụ cơ bản, chúng tôi còn cung cấp dịch vụ tư vấn giải pháp
-                  fullfillment toàn diện cho các đối tác có nhu cầu.
-                </p>
-              </div>
-            </div>
-          </div>
-          <button
-            v-show="showServiceButton6"
-            class="absolute inset-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 text-white"
-          >
-            <a
-              href="tel:0968959567"
-              class="px-4 py-2 text-center text-gray-900 bg-orange-300 rounded-md hover:bg-orange-400"
-            >
-              Liên hệ ngay</a
-            >
-          </button>
-        </div>
       </div>
     </div>
   </SessionContent>
 
-  <SessionContent title="Thị Trường của Chúng Tôi (Nhấn để xem bảng giá)" description="">
+  <SessionContent title="Đối tác của chúng tôi" description="">
     <div class="grid grid-cols-3 gap-6 px-4 py-4 mx-auto md:grid-cols-3 lg:grid-cols-3 lg:gap-8">
       <div
         class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
-        @click="
-          goToMarket(
-            'https://docs.google.com/document/d/1n3rYKbJ2-8EDSMTOFJnFZavfZVSjVdKGsVnHqwJG-oI/edit?pli=1'
-          )
-        "
       >
         <div
           class="relative m-1 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
         >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/640px-Flag_of_Thailand.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/3/35/Logo_J%26T_Merah_Square.jpg"
             alt="ui/ux review check"
           />
           <div
@@ -625,19 +567,11 @@ const showServiceButton6 = ref<boolean>(false)
       </div>
       <div
         class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
-        @click="
-          goToMarket(
-            'https://docs.google.com/document/d/1vdveYj9i4MnqITwsB2HOr1cDXZi6WVIeUVaMnDsnLV0/edit'
-          )
-        "
       >
         <div
           class="relative m-1 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
         >
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Malaya.svg/500px-Flag_of_Malaya.svg.png"
-            alt="ui/ux review check"
-          />
+          <img src="https://www.ninjavan.co/cover.png" alt="ui/ux review check" />
           <div
             class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"
           ></div>
@@ -645,17 +579,12 @@ const showServiceButton6 = ref<boolean>(false)
       </div>
       <div
         class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
-        @click="
-          goToMarket(
-            'https://docs.google.com/document/d/1vdveYj9i4MnqITwsB2HOr1cDXZi6WVIeUVaMnDsnLV0/edit'
-          )
-        "
       >
         <div
           class="relative m-1 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
         >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/800px-Flag_of_the_Philippines.svg.png"
+            src="https://static.ybox.vn/2021/8/5/1629470855654-the-gallerie-by-prudential-avatar.png"
             alt="ui/ux review check"
           />
           <div

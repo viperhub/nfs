@@ -15,13 +15,13 @@ const router = createRouter({
       ]
     },
     {
-      path: '/contact',
-      name: 'AboutView',
+      path: '/lien-he',
+      name: 'ContactView',
       component: () => import('@/components/commons/layout/public/PublicLayout.vue'),
       children: [
         {
           path: '',
-          name: 'AboutView',
+          name: 'ContactView',
           component: () => import('@/views/AboutPage.vue')
         }
       ]

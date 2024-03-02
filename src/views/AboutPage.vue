@@ -76,9 +76,9 @@
                       <div class="ml-6 grow">
                         <p class="mb-2 font-bold dark:text-white">Địa chỉ</p>
                         <p class="text-neutral-500 dark:text-neutral-200">
-                          HH2, Linh Đàm, Hoàng Mai, Hà Nội
+                          Số 28 Lô 6 ngõ 23 Lê Văn Lương - Nhân Chính - Thanh Xuân
                         </p>
-                        <p class="text-neutral-500 dark:text-neutral-200">+1 234-567-89</p>
+                        <p class="text-neutral-500 dark:text-neutral-200">0968.959.567</p>
                       </div>
                     </div>
                   </div>
@@ -88,8 +88,7 @@
                     <div class="flex items-start">
                       <div class="ml-6 grow">
                         <p class="mb-2 font-bold dark:text-white">Đường dây nóng</p>
-                        <p class="text-neutral-500 dark:text-neutral-200">sales@example.com</p>
-                        <p class="text-neutral-500 dark:text-neutral-200">+1 234-567-89</p>
+                        <p class="text-neutral-500 dark:text-neutral-200">0968.959.567</p>
                       </div>
                     </div>
                   </div>

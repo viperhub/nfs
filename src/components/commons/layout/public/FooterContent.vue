@@ -32,17 +32,17 @@
 
           <div class="flex flex-col items-start mt-5 space-y-2">
             <a
-              href="#"
+              href="/"
               class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
               >Trang chủ</a
             >
             <a
-              href="#"
+              href="/bang-gia"
               class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
               >Bảng giá</a
             >
             <a
-              href="#"
+              href="/lien-he"
               class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
               >Liên hệ</a
             >
@@ -56,17 +56,12 @@
             <a
               href="#"
               class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-              >Văn phòng : 11 Hai bà Trưng, Quận 1, TP.HCM</a
+              >Văn phòng : Số 28 Lô 6 ngõ 23 Lê Văn Lương - Nhân Chính - Thanh Xuân</a
             >
             <a
               href="#"
               class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-              >Số điện thoại : 0909 090 090</a
-            >
-            <a
-              href="#"
-              class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-              >Email : idujv@gmai.com</a
+              >Số điện thoại : 0968959567</a
             >
           </div>
         </div>
