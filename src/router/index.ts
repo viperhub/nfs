@@ -27,6 +27,18 @@ const router = createRouter({
       ]
     },
     {
+      path: '/bao-gia',
+      name: 'PricingView',
+      component: () => import('@/components/commons/layout/public/PublicLayout.vue'),
+      children: [
+        {
+          path: '',
+          name: 'AboutView',
+          component: () => import('@/views/PricePage.vue')
+        }
+      ]
+    },
+    {
       path: '/news',
       name: 'NewsView',
       component: () => import('@/components/commons/layout/public/PublicLayout.vue'),

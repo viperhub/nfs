@@ -76,7 +76,7 @@
 
       <div class="flex items-center justify-between">
         <a href="#">
-          <img class="w-20 h-20" src="/images/logo.png" alt="" />
+          <img class="w-52 h-18" src="/images/logo.png" alt="" />
         </a>
 
         <div class="flex -mx-2">

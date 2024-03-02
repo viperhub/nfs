@@ -379,7 +379,7 @@ const showServiceButton6 = ref<boolean>(false)
             class="absolute inset-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 text-white"
           >
             <a
-              href="tel:0848195555"
+              href="tel:0968959567"
               class="px-4 py-2 text-center text-gray-900 bg-orange-300 rounded-md hover:bg-orange-400"
             >
               Liên hệ ngay</a
@@ -421,7 +421,7 @@ const showServiceButton6 = ref<boolean>(false)
             class="absolute inset-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 text-white"
           >
             <a
-              href="tel:0848195555"
+              href="tel:0968959567"
               class="px-4 py-2 text-center text-gray-900 bg-orange-300 rounded-md hover:bg-orange-400"
             >
               Liên hệ ngay</a
@@ -464,7 +464,7 @@ const showServiceButton6 = ref<boolean>(false)
             class="absolute inset-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 text-white"
           >
             <a
-              href="tel:0848195555"
+              href="tel:0968959567"
               class="px-4 py-2 text-center text-gray-900 bg-orange-300 rounded-md hover:bg-orange-400"
             >
               Liên hệ ngay</a
@@ -492,11 +492,11 @@ const showServiceButton6 = ref<boolean>(false)
                   Hoạt động
                 </span>
               </div>
-              <h class="mb-3 text-base font-semibold">ĐỘI NGŨ TELESALES, MARKETING CHUYÊN NGHIỆP</h>
+              <h class="mb-3 text-base font-semibold">ĐỘI NGŨ TELESALES CHUYÊN NGHIỆP</h>
               <div class="flex items-center justify-between mb-3">
                 <p class="text-sm font-medium">
-                  Chúng tôi cung cấp dịch vụ telesales, marketing chuyên nghiệp, giúp quý vị tối ưu
-                  hóa chiến lược kinh doanh và tiếp cận khách hàng một cách hiệu quả.
+                  Chúng tôi cung cấp dịch vụ telesales chuyên nghiệp, giúp quý vị tối ưu hóa chiến
+                  lược kinh doanh và tiếp cận khách hàng một cách hiệu quả.
                 </p>
               </div>
             </div>
@@ -506,7 +506,7 @@ const showServiceButton6 = ref<boolean>(false)
             class="absolute inset-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 text-white"
           >
             <a
-              href="tel:0848195555"
+              href="tel:0968959567"
               class="px-4 py-2 text-center text-gray-900 bg-orange-300 rounded-md hover:bg-orange-400"
             >
               Liên hệ ngay</a
@@ -548,7 +548,7 @@ const showServiceButton6 = ref<boolean>(false)
             class="absolute inset-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 text-white"
           >
             <a
-              href="tel:0848195555"
+              href="tel:0968959567"
               class="px-4 py-2 text-center text-gray-900 bg-orange-300 rounded-md hover:bg-orange-400"
             >
               Liên hệ ngay</a
@@ -590,7 +590,7 @@ const showServiceButton6 = ref<boolean>(false)
             class="absolute inset-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 text-white"
           >
             <a
-              href="tel:0848195555"
+              href="tel:0968959567"
               class="px-4 py-2 text-center text-gray-900 bg-orange-300 rounded-md hover:bg-orange-400"
             >
               Liên hệ ngay</a
@@ -1022,32 +1022,3 @@ const showServiceButton6 = ref<boolean>(false)
 
   <FooterContent />
 </template>
-
-<style scoped lang="scss">
-.typing {
-  overflow: hidden;
-  white-space: nowrap;
-  animation:
-    typing 2s steps(40, end),
-    blink-caret 0.75s step-end infinite;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: orange;
-  }
-}
-</style>
