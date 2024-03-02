@@ -14,13 +14,6 @@ const route = useRoute()
           <img src="/images/logo.png" class="mr-3 h-10 sm:h-10" alt="App Logo" />
         </router-link>
         <div class="flex items-center lg:order-2">
-          <router-link
-            to="call:0968959567"
-            class="text-white bg-orange-600 hover:bg-orange-700 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
-          >
-            Liên hệ ngay
-          </router-link>
-
           <button
             data-collapse-toggle="mobile-menu-2"
             aria-controls="mobile-menu-2"
