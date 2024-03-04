@@ -1,13 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-  <footer class="bg-white dark:bg-gray-900">
+  <footer class="bg-white">
     <div class="container px-6 py-12 mx-auto">
       <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
         <div class="sm:col-span-2">
-          <h1
-            class="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white"
-          >
+          <h1 class="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl">
             Cập nhật thông tin mới nhất từ chúng tôi
           </h1>
 
@@ -15,7 +13,7 @@
             <input
               id="email"
               type="text"
-              class="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
+              class="px-4 py-2 text-gray-700 bg-white border rounded-md focus:border-blue-400 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
               placeholder="Email Address"
             />
 
@@ -28,46 +26,46 @@
         </div>
 
         <div>
-          <p class="font-semibold text-gray-800 dark:text-white">Truy cập nhanh</p>
+          <p class="font-semibold text-gray-800">Truy cập nhanh</p>
 
           <div class="flex flex-col items-start mt-5 space-y-2">
             <a
               href="/"
-              class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+              class="text-gray-600 transition-colors duration-300 hover:underline hover:text-blue-500"
               >Trang chủ</a
             >
             <a
-              href="/bang-gia"
-              class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+              href="/bao-gia"
+              class="text-gray-600 transition-colors duration-300 hover:underline hover:text-blue-500"
               >Bảng giá</a
             >
             <a
               href="/lien-he"
-              class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+              class="text-gray-600 transition-colors duration-300 hover:underline hover:text-blue-500"
               >Liên hệ</a
             >
           </div>
         </div>
 
         <div>
-          <p class="font-semibold text-gray-800 dark:text-white">Địa chỉ</p>
+          <p class="font-semibold text-gray-800">Địa chỉ</p>
 
           <div class="flex flex-col items-start mt-5 space-y-2">
             <a
               href="#"
-              class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+              class="text-gray-600 transition-colors duration-300 hover:underline hover:text-blue-500"
               >Văn phòng : Số 28 Lô 6 ngõ 23 Lê Văn Lương - Nhân Chính - Thanh Xuân</a
             >
             <a
               href="#"
-              class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+              class="text-gray-600 transition-colors duration-300 bover:underline hover:text-blue-500"
               >Số điện thoại : 0968959567</a
             >
           </div>
         </div>
       </div>
 
-      <hr class="my-6 border-gray-200 md:my-8 dark:border-gray-700" />
+      <hr class="my-6 border-gray-200 md:my-8" />
 
       <div class="flex items-center justify-between">
         <a href="#">
@@ -77,7 +75,7 @@
         <div class="flex -mx-2">
           <a
             href="#"
-            class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+            class="mx-2 text-gray-600 transition-colors duration-300 hover:text-blue-500"
             aria-label="Reddit"
           >
             <svg
@@ -94,7 +92,7 @@
 
           <a
             href="#"
-            class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+            class="mx-2 text-gray-600 transition-colors duration-300 hover:text-blue-400"
             aria-label="Facebook"
           >
             <svg
@@ -111,7 +109,7 @@
 
           <a
             href="#"
-            class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+            class="mx-2 text-gray-600 transition-colors duration-300 hover:text-blue-400"
             aria-label="Github"
           >
             <svg

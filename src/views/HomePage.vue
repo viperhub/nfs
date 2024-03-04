@@ -4,7 +4,7 @@ import SessionContent from '@/components/commons/layout/public/SessionContent.vu
 import { ref, computed } from 'vue'
 import FooterContent from '@/components/commons/layout/public/FooterContent.vue'
 import FloatingContent from '@/components/commons/layout/public/FloatingContent.vue'
-
+import FacebookChat from '@/views/FacebookChat.vue'
 interface Slide {
   title: string
   content: string
@@ -62,6 +62,8 @@ const showServiceButton1 = ref<boolean>(false)
 const showServiceButton2 = ref<boolean>(false)
 const showServiceButton3 = ref<boolean>(false)
 const showServiceButton4 = ref<boolean>(false)
+const showServiceButton5 = ref<boolean>(false)
+const showServiceButton6 = ref<boolean>(false)
 </script>
 
 <template>
@@ -83,7 +85,7 @@ const showServiceButton4 = ref<boolean>(false)
               >
                 <div v-motion-roll-left class="w-full md:w-5/6 p-3 md:p-20">
                   <div class="mb-4 p-2">
-                    <h1 class="text-2xl md:text-4xl font-bold text-orange-500">
+                    <h1 class="text-xl md:text-4xl font-bold text-orange-500">
                       {{ slide.title }}
                     </h1>
                   </div>
@@ -336,7 +338,7 @@ const showServiceButton4 = ref<boolean>(false)
     description="NA Fulfillment là một trong những công ty hàng đầu tại Việt Nam cung cấp các hoạt động dịch vụ Fulfillment cho doanh nghiệp. Với thế mạnh là đơn vị giàu kinh nghiệm, sở hữu những chính sách đặc biệt từ các hãng tàu lớn cũng như sở hữu kho bãi NỘI ĐỊA chất lượng đáp ứng mọi nhu cầu của khách hàng.( NOTE : DỊCH VỤ NÀY CHIA THEO DẠNG TỪNG Ô CẠNH NHAU CHO KHÁCH HÀNG CÓ CÁI NHÌN TỔNG QUAN VỀ DỊCH VỤ BÊN MÌNH )"
   >
     <div class="justify-center max-w-6xl px-4 py-4 mx-auto lg:py-0">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <div
           class="rounded-lg overflow-hidden shadow-lg flex flex-col transition duration-500 hover:scale-90"
           @mouseover="showServiceButton1 = true"
@@ -345,7 +347,7 @@ const showServiceButton4 = ref<boolean>(false)
           <div class="bg-white rounded-md flex-grow">
             <img
               class="object-cover w-full h-48 rounded-t-md"
-              src="https://www.dropoff.com/wp-content/uploads/2022/09/Last-Mile-Fulfillment-Everything-You-Need-to-Know-01.png"
+              src="/images/service-01.jpg"
               alt=""
             />
           </div>
@@ -358,7 +360,7 @@ const showServiceButton4 = ref<boolean>(false)
                   Hoạt động
                 </span>
               </div>
-              <h2 class="mb-3 text-base font-semibold">Dịch vụ hậu cần cần fulfillment</h2>
+              <h2 class="mb-3 text-base font-semibold">Setup kho tại Đông Nam Á</h2>
               <div class="flex items-center justify-between mb-3">
                 <p class="text-sm font-medium">
                   NA Fulfillment sẽ hỗ trợ khách hàng thành lập đội ngũ nội bộ tại Philippines, bao
@@ -399,7 +401,7 @@ const showServiceButton4 = ref<boolean>(false)
           <div class="bg-white rounded-md">
             <img
               class="object-cover w-full h-48 rounded-t-md"
-              src="https://bizweb.dktcdn.net/100/366/963/files/fulfillment-la-gi-2.jpg?v=1651544243877"
+              src="/images/service-02.jpg"
               alt=""
             />
           </div>
@@ -450,11 +452,7 @@ const showServiceButton4 = ref<boolean>(false)
           @mouseleave="showServiceButton3 = false"
         >
           <div class="bg-white rounded-md">
-            <img
-              class="object-cover w-full h-48 rounded-t-md"
-              src="https://atls.vn/wp-content/uploads/2021/03/HTL-009.jpg"
-              alt=""
-            />
+            <img class="w-full h-48 rounded-t-md" src="/images/service-03.jpeg" alt="" />
           </div>
           <div class="bg-white rounded-md">
             <div class="p-4">
@@ -499,7 +497,7 @@ const showServiceButton4 = ref<boolean>(false)
           <div class="bg-white rounded-md">
             <img
               class="object-cover w-full h-48 rounded-t-md"
-              src="https://accgroup.vn/wp-content/uploads/2022/10/cach-moi-de-tra-cuu-bhxh_0204112908-2.jpg"
+              src="/images/service-04.jpg"
               alt=""
             />
           </div>
@@ -525,6 +523,104 @@ const showServiceButton4 = ref<boolean>(false)
           </div>
           <button
             v-show="showServiceButton4"
+            class="absolute inset-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 text-white"
+          >
+            <a
+              href="tel:0968959567"
+              class="px-4 py-2 text-center text-gray-900 bg-orange-300 rounded-md hover:bg-orange-400"
+            >
+              Liên hệ ngay</a
+            >
+          </button>
+        </div>
+
+        <div
+          class="rounded-lg overflow-hidden shadow-lg flex flex-col transition duration-500 hover:scale-90"
+          @mouseover="showServiceButton5 = true"
+          @mouseleave="showServiceButton5 = false"
+        >
+          <div class="bg-white rounded-md">
+            <img
+              class="object-cover w-full h-48 rounded-t-md"
+              src="/images/service-05.jpg"
+              alt=""
+            />
+          </div>
+          <div class="bg-white rounded-md">
+            <div class="p-4">
+              <div class="flex items-center justify-between mb-3">
+                <span
+                  class="inline-block px-2 py-1 text-sm text-orange-500 rounded-full bg-orange-50"
+                >
+                  Hoạt động
+                </span>
+              </div>
+              <h class="mb-3 text-base font-semibold"
+                >DỊCH VỤ NHẬP HÀNG TẠI TRUNG QUỐC & NỘI ĐỊA CÁC NƯỚC ĐÔNG NAM Á
+              </h>
+              <div class="flex items-center justify-between mb-3">
+                <p class="text-sm font-medium">
+                  NA sẽ hỗ trợ free khách hàng tìm và nhập hàng tại các nước Đông Nam Á trên các nên
+                  tảng Shoppe, Lazada , Tiktok
+                  <br />
+                  - Nhập hàng tại Trung Quốc đi các nước Đông Nam Á
+                  <br />
+                  - Nhập hàng tại các nước Đông Nam Á Hiện tại NA có rất nhiều đối tác cung cấp hàng
+                  sỉ tại các nước Đông Nam Á giup khach hang nhap hang voi gia nhap tot nhat
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            v-show="showServiceButton5"
+            class="absolute inset-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 text-white"
+          >
+            <a
+              href="tel:0968959567"
+              class="px-4 py-2 text-center text-gray-900 bg-orange-300 rounded-md hover:bg-orange-400"
+            >
+              Liên hệ ngay</a
+            >
+          </button>
+        </div>
+
+        <div
+          class="rounded-lg overflow-hidden shadow-lg flex flex-col transition duration-500 hover:scale-90"
+          @mouseover="showServiceButton6 = true"
+          @mouseleave="showServiceButton6 = false"
+        >
+          <div class="bg-white rounded-md">
+            <img
+              class="object-cover w-full h-48 rounded-t-md"
+              src="/images/service-06.jpg"
+              alt=""
+            />
+          </div>
+          <div class="bg-white rounded-md">
+            <div class="p-4">
+              <div class="flex items-center justify-between mb-3">
+                <span
+                  class="inline-block px-2 py-1 text-sm text-orange-500 rounded-full bg-orange-50"
+                >
+                  Hoạt động
+                </span>
+              </div>
+              <h class="mb-3 text-base font-semibold">Dịch vụ hậu mãi</h>
+              <div class="flex items-center justify-between mb-3">
+                <p class="text-sm font-medium">
+                  - Hỗ trợ Free Khách Hàng mở tài khoản sàn TMĐT : Shoppe - Tiktok shop - Lazada
+                  <br />
+                  - Hỗ trợ OME sản phẩm tại các nước Đông Nam Á : Sữa , TPCN , Mỹ Phẩm ...
+                  <br />
+                  - Hỗ trợ xin giấy tờ FDA , Build Brand ...
+                  <br />
+                  - Hỗ rợ book Kol , Koc và đội quay dựng video tại các nước Đông Nam Á
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            v-show="showServiceButton6"
             class="absolute inset-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 text-white"
           >
             <a
@@ -602,7 +698,7 @@ const showServiceButton4 = ref<boolean>(false)
                   <div
                     class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200"
                   >
-                    <img src="https://i.pravatar.cc/100?img=1" alt="" />
+                    <img src="/images/user-01.jpg" alt="" />
                   </div>
                   <div class="flex-grow pl-3">
                     <h6 class="font-bold text-sm uppercase text-gray-600">Nguyễn Thị Hà</h6>
@@ -626,7 +722,7 @@ const showServiceButton4 = ref<boolean>(false)
                   <div
                     class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200"
                   >
-                    <img src="https://i.pravatar.cc/100?img=2" alt="" />
+                    <img src="/images/user-03.jpg" alt="" />
                   </div>
                   <div class="flex-grow pl-3">
                     <h6 class="font-bold text-sm uppercase text-gray-600">Tuấn Trần</h6>
@@ -651,7 +747,7 @@ const showServiceButton4 = ref<boolean>(false)
                   <div
                     class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200"
                   >
-                    <img src="https://i.pravatar.cc/100?img=3" alt="" />
+                    <img src="/images/user-02.jpg" alt="" />
                   </div>
                   <div class="flex-grow pl-3">
                     <h6 class="font-bold text-sm uppercase text-gray-600">Nguyễn Linh</h6>
@@ -673,7 +769,7 @@ const showServiceButton4 = ref<boolean>(false)
                   <div
                     class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200"
                   >
-                    <img src="https://i.pravatar.cc/100?img=4" alt="" />
+                    <img src="/images/user-04.jpg" alt="" />
                   </div>
                   <div class="flex-grow pl-3">
                     <h6 class="font-bold text-sm uppercase text-gray-600">Trần Thị Hà</h6>
@@ -697,7 +793,7 @@ const showServiceButton4 = ref<boolean>(false)
                   <div
                     class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200"
                   >
-                    <img src="https://i.pravatar.cc/100?img=5" alt="" />
+                    <img src="/images/user-05.jpg" alt="" />
                   </div>
                   <div class="flex-grow pl-3">
                     <h6 class="font-bold text-sm uppercase text-gray-600">Khương Hùng</h6>
@@ -719,7 +815,7 @@ const showServiceButton4 = ref<boolean>(false)
                   <div
                     class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200"
                   >
-                    <img src="https://i.pravatar.cc/100?img=6" alt="" />
+                    <img src="/images/user-06.jpg" alt="" />
                   </div>
                   <div class="flex-grow pl-3">
                     <h6 class="font-bold text-sm uppercase text-gray-600">Cao Thanh Trung</h6>
@@ -941,4 +1037,6 @@ const showServiceButton4 = ref<boolean>(false)
   <FloatingContent />
 
   <FooterContent />
+
+  <FacebookChat />
 </template>
