@@ -27,7 +27,7 @@ const slides: Slide[] = [
   {
     title: 'DỊCH VỤ VẬN CHUYỂN QUỐC TẾ',
     content:
-      '<div class="text-sm md:text-2xl"><p>Hiện nay NA Fulfillment là một trong những đại lý lớn về vận chuyển quốc tế nên giá vận chuyển luôn được đảm bảo tối ưu nhất cho khách hàng trong hệ thống NA như sau:</p> <ul class="list-disc p-6"> <li>Vận chuyển Trung Quốc, Việt Nam</li><li>Vận chuyển về Việt Nam Thailand, Malaysia, Philippines</li></ul></div>',
+      '<div class="text-sm md:text-2xl"><p>Hiện nay NA Fulfillment là một trong những đại lý lớn về vận chuyển quốc tế nên giá vận chuyển luôn được đảm bảo tối ưu nhất cho khách hàng trong hệ thống NA như sau:</p> <ul class="list-disc p-6"> <li>Vận chuyển Trung Quốc, Việt Nam</li><li>Vận chuyển Trung Quốc -> Các nước Đông Nam Á </li><li>Vận chuyển Việt Nam -> Các nước Đông Nam Á </li></ul></div>',
     images: 'images/slide-03.jpg'
   },
   {
