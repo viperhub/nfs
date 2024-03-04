@@ -13,27 +13,21 @@ interface Slide {
 
 const slides: Slide[] = [
   {
-    title: 'Dịch vụ hậu cần Fulfillment',
+    title: 'Dịch vụ setup kho tại Đông Nam Á',
     content:
-      '<div><p>NA Fulfillment sẽ hỗ trợ khách hàng thành lập đội ngũ nội bộ tại thị trường Đông Nam Á, bao gồm:</p><ul><li>Hoạt động văn phòng, kho bãi</li><li>Tuyển dụng và đào tạo Telesale, CSR, Bill of Lading, Logistics Team - Hồ sơ doanh nghiệp, thủ tục thuế, thủ tục pháp lý</li><li>Đăng ký tài khoản VIP riêng tại các đơn vị vận chuyển lớn như J&T, Ninja, Flash với mức chiết khấu cao 50% phí vận chuyển và đồng giá 1,5% phí COD</li></ul><p>Sau đó, NA Fulfillment sẽ hỗ trợ khách hàng vận hành đội ngũ nội bộ cũng như xử lý các vấn đề phát sinh tại Thailand, Malaysia, Philippines.</p></div>',
+      '<div class="text-md text-white" ><p>NA Fulfillment sẽ hỗ trợ khách hàng thành lập đội ngũ nội bộ tại thị trường Đông Nam Á, bao gồm:</p><ul class="list-disc p-6"><li>Hoạt động văn phòng, kho bãi</li><li>Tuyển dụng và đào tạo Telesale, CSR, Bill of Lading, Logistics Team - Hồ sơ doanh nghiệp, thủ tục thuế, thủ tục pháp lý</li><li>Đăng ký tài khoản VIP riêng tại các đơn vị vận chuyển lớn như J&T, Ninja, Flash với mức chiết khấu cao 50% phí vận chuyển và đồng giá 1,5% phí COD</li></ul><p>Sau đó, NA Fulfillment sẽ hỗ trợ khách hàng vận hành đội ngũ nội bộ cũng như xử lý các vấn đề phát sinh tại Thailand, Malaysia, Philippines.</p></div>',
     images: 'images/slide-01.jpg'
   },
   {
     title: 'FULFILLMENT SERVICE',
     content:
-      '<div><p>NA cung cấp các dịch vụ hoàn thiện đơn hàng bao gồm:</p> <ul > <li>Telesales</li><li>Chat mess</li><li>Chăm sóc khách hàng</li><li>Logistics</li><li>Storage</li></ul><p >NA Fulfillment luôn tự hào với đội ngũ vận hành chuyên nghiệp, có nhiều năm kinh nghiệm và hỗ trợ hàng chục công ty với 400.000 đơn hàng tại Thailand, Malaysia, Philippines.</p></div>',
+      '<div><p>NA cung cấp các dịch vụ hoàn thiện đơn hàng bao gồm:</p> <ul class="list-disc p-8"> <li>Telesales</li><li>Chat mess</li><li>Chăm sóc khách hàng</li><li>Logistics</li><li>Storage</li></ul><p >NA Fulfillment luôn tự hào với đội ngũ vận hành chuyên nghiệp, có nhiều năm kinh nghiệm và hỗ trợ hàng chục công ty với 400.000 đơn hàng tại Thailand, Malaysia, Philippines.</p></div>',
     images: 'images/slide-02.jpg'
   },
   {
     title: 'DỊCH VỤ VẬN CHUYỂN QUỐC TẾ',
     content:
-      '<div><p>Hiện nay NA Fulfillment là một trong những đại lý lớn về vận chuyển quốc tế nên giá vận chuyển luôn được đảm bảo tối ưu nhất cho khách hàng trong hệ thống NA như sau:</p> <ul > <li>Vận chuyển Trung Quốc, Việt Nam</li><li>Vận chuyển về Việt Nam Thailand, Malaysia, Philippines</li></ul></div>',
-    images: 'images/slide-03.jpg'
-  },
-  {
-    title: 'DỊCH VỤ VẬN CHUYỂN QUỐC TẾ',
-    content:
-      '<div><p>Hiện nay NA Fulfillment là một trong những đại lý lớn về vận chuyển quốc tế nên giá vận chuyển luôn được đảm bảo tối ưu nhất cho khách hàng trong hệ thống NA như sau:</p> <ul > <li>Vận chuyển Trung Quốc, Việt Nam</li><li>Vận chuyển về Việt Nam Thailand, Malaysia, Philippines</li></ul></div>',
+      '<div><p>Hiện nay NA Fulfillment là một trong những đại lý lớn về vận chuyển quốc tế nên giá vận chuyển luôn được đảm bảo tối ưu nhất cho khách hàng trong hệ thống NA như sau:</p> <ul class="list-disc p-6"> <li>Vận chuyển Trung Quốc, Việt Nam</li><li>Vận chuyển về Việt Nam Thailand, Malaysia, Philippines</li></ul></div>',
     images: 'images/slide-03.jpg'
   },
   {
@@ -57,7 +51,7 @@ const prevSlide = () => {
 const autoNextSlide = () => {
   setInterval(() => {
     nextSlide()
-  }, 6000)
+  }, 10000)
 }
 
 autoNextSlide()
@@ -78,27 +72,24 @@ const showServiceButton4 = ref<boolean>(false)
         <div class="flex transition-transform duration-500" :style="{ transform: transform }">
           <div v-for="(slide, index) in slides" :key="index" class="w-full flex-shrink-0">
             <div
-              class="bg-gray-200 p-4 h-[70vh] backdrop-filter backdrop-blur-lg bg-opacity-50 flex flex-col justify-center items-start text-white transition duration-500 hover:bg-opacity-70"
+              class="h-[70vh] bg-white bg-no-repeat bg-center bg-cover bg-fixed overflow-hidden"
               :style="{
-                backgroundImage: `url(${slide.images})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat'
+                backgroundImage: `url(${slide.images})`
               }"
             >
-              <div class="container mx-auto">
-                <div
-                  v-motion-roll-left
-                  class="w-full md:w-4/6 bg-black/30 rounded-md backdrop-filter backdrop-blur-md bg-opacity-75 p-4"
-                >
-                  <div class="mb-4">
-                    <h1 class="text-4xl font-bold text-orange-500 typing">
+              <div
+                class="w-full h-full bg-black bg-opacity-30 flex items-center justify-start"
+                style="backdrop-filter: blur(1px)"
+              >
+                <div v-motion-roll-left class="w-full md:w-3/6 p-3 md:p-20">
+                  <div class="mb-4 p-2">
+                    <h1 class="text-4xl font-bold text-orange-500">
                       {{ slide.title }}
                     </h1>
                   </div>
-                  <div class="mt-4 w-full md:w-3/4">
+                  <div class="mt-4 w-full">
                     <p
-                      class="text-sm md:text-base text-white transition duration-500"
+                      class="text-lg md:text-base text-white transition duration-500"
                       v-html="slide.content"
                     ></p>
                   </div>
@@ -109,13 +100,13 @@ const showServiceButton4 = ref<boolean>(false)
         </div>
       </div>
       <button
-        class="absolute top-1/2 left-0 transform -translate-y-1/2 px-2 py-1 bg-gray-500/30 text-white rounded-full ml-5"
+        class="absolute top-1/2 left-0 transform -translate-y-1/2 px-2 py-1 bg-transparent text-white rounded-full ml-5"
         @click="prevSlide"
       >
         <font-awesome-icon :icon="['fas', 'chevron-left']" />
       </button>
       <button
-        class="absolute top-1/2 right-0 transform -translate-y-1/2 px-2 py-1 bg-gray-500/30 text-white rounded-full mr-5"
+        class="absolute top-1/2 right-0 transform -translate-y-1/2 px-2 py-1 bg-transparent text-white rounded-full mr-5"
         @click="nextSlide"
       >
         <font-awesome-icon :icon="['fas', 'chevron-right']" />
@@ -179,7 +170,7 @@ const showServiceButton4 = ref<boolean>(false)
   </SessionContent>
 
   <SessionContent title="NA FULFILLMENT - TAKE CARE BY HEART" description="">
-    <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       <div class="flex items-center justify-center bg-white">
         <div class="max-w-md h-[300px] rounded-3xl p-px border-solid border-2 border-orange-600">
           <div class="rounded-[calc(1.5rem-1px)] p-4 bg-white">
