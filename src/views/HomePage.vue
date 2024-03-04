@@ -15,25 +15,25 @@ const slides: Slide[] = [
   {
     title: 'Dịch vụ setup kho tại Đông Nam Á',
     content:
-      '<div class="text-md text-white" ><p>NA Fulfillment sẽ hỗ trợ khách hàng thành lập đội ngũ nội bộ tại thị trường Đông Nam Á, bao gồm:</p><ul class="list-disc p-6"><li>Hoạt động văn phòng, kho bãi</li><li>Tuyển dụng và đào tạo Telesale, CSR, Bill of Lading, Logistics Team - Hồ sơ doanh nghiệp, thủ tục thuế, thủ tục pháp lý</li><li>Đăng ký tài khoản VIP riêng tại các đơn vị vận chuyển lớn như J&T, Ninja, Flash với mức chiết khấu cao 50% phí vận chuyển và đồng giá 1,5% phí COD</li></ul><p>Sau đó, NA Fulfillment sẽ hỗ trợ khách hàng vận hành đội ngũ nội bộ cũng như xử lý các vấn đề phát sinh tại Thailand, Malaysia, Philippines.</p></div>',
+      '<div class="text-sm md:text-2xl"><p>NA Fulfillment sẽ hỗ trợ khách hàng thành lập đội ngũ nội bộ tại thị trường Đông Nam Á, bao gồm:</p><ul class="list-disc p-6"><li>Hoạt động văn phòng, kho bãi</li><li>Tuyển dụng và đào tạo Telesale, CSR, Bill of Lading, Logistics Team - Hồ sơ doanh nghiệp, thủ tục thuế, thủ tục pháp lý</li><li>Đăng ký tài khoản VIP riêng tại các đơn vị vận chuyển lớn như J&T, Ninja, Flash với mức chiết khấu cao 50% phí vận chuyển và đồng giá 1,5% phí COD</li></ul><p>Sau đó, NA Fulfillment sẽ hỗ trợ khách hàng vận hành đội ngũ nội bộ cũng như xử lý các vấn đề phát sinh tại Thailand, Malaysia, Philippines.</p></div>',
     images: 'images/slide-01.jpg'
   },
   {
     title: 'FULFILLMENT SERVICE',
     content:
-      '<div><p>NA cung cấp các dịch vụ hoàn thiện đơn hàng bao gồm:</p> <ul class="list-disc p-8"> <li>Telesales</li><li>Chat mess</li><li>Chăm sóc khách hàng</li><li>Logistics</li><li>Storage</li></ul><p >NA Fulfillment luôn tự hào với đội ngũ vận hành chuyên nghiệp, có nhiều năm kinh nghiệm và hỗ trợ hàng chục công ty với 400.000 đơn hàng tại Thailand, Malaysia, Philippines.</p></div>',
+      '<div class="text-sm md:text-2xl"><p>NA cung cấp các dịch vụ hoàn thiện đơn hàng bao gồm:</p> <ul class="list-disc p-8"> <li>Telesales</li><li>Chat mess</li><li>Chăm sóc khách hàng</li><li>Logistics</li><li>Storage</li></ul><p >NA Fulfillment luôn tự hào với đội ngũ vận hành chuyên nghiệp, có nhiều năm kinh nghiệm và hỗ trợ hàng chục công ty với 400.000 đơn hàng tại Thailand, Malaysia, Philippines.</p></div>',
     images: 'images/slide-02.jpg'
   },
   {
     title: 'DỊCH VỤ VẬN CHUYỂN QUỐC TẾ',
     content:
-      '<div><p>Hiện nay NA Fulfillment là một trong những đại lý lớn về vận chuyển quốc tế nên giá vận chuyển luôn được đảm bảo tối ưu nhất cho khách hàng trong hệ thống NA như sau:</p> <ul class="list-disc p-6"> <li>Vận chuyển Trung Quốc, Việt Nam</li><li>Vận chuyển về Việt Nam Thailand, Malaysia, Philippines</li></ul></div>',
+      '<div class="text-sm md:text-2xl"><p>Hiện nay NA Fulfillment là một trong những đại lý lớn về vận chuyển quốc tế nên giá vận chuyển luôn được đảm bảo tối ưu nhất cho khách hàng trong hệ thống NA như sau:</p> <ul class="list-disc p-6"> <li>Vận chuyển Trung Quốc, Việt Nam</li><li>Vận chuyển về Việt Nam Thailand, Malaysia, Philippines</li></ul></div>',
     images: 'images/slide-03.jpg'
   },
   {
     title: 'HỖ TRỢ KIỂM TRA THỊ TRƯỜNG MIỄN PHÍ',
     content:
-      '<div><p>Đối với mỗi sản phẩm, ngành hàng khách hàng, cách thức thâm nhập thị trường và thử nghiệm sản  luôn khác nhau. Nhận thấy điều đó, NA Fulfillment sẽ hỗ trợ tìm kiếm và thử nghiệm thị trường MIỄN PHÍ cho khách hàng, giúp bạn tối ưu hóa chi phí và thời gian thử nghiệm thị trường.</p></div>',
+      '<div class="text-sm md:text-2xl"><p>Đối với mỗi sản phẩm, ngành hàng khách hàng, cách thức thâm nhập thị trường và thử nghiệm sản  luôn khác nhau. Nhận thấy điều đó, NA Fulfillment sẽ hỗ trợ tìm kiếm và thử nghiệm thị trường MIỄN PHÍ cho khách hàng, giúp bạn tối ưu hóa chi phí và thời gian thử nghiệm thị trường.</p></div>',
     images: 'images/slide-04.jpeg'
   }
 ]
@@ -81,15 +81,15 @@ const showServiceButton4 = ref<boolean>(false)
                 class="w-full h-full bg-black bg-opacity-30 flex items-center justify-start"
                 style="backdrop-filter: blur(1px)"
               >
-                <div v-motion-roll-left class="w-full md:w-3/6 p-3 md:p-20">
+                <div v-motion-roll-left class="w-full md:w-5/6 p-3 md:p-20">
                   <div class="mb-4 p-2">
-                    <h1 class="text-4xl font-bold text-orange-500">
+                    <h1 class="text-2xl md:text-4xl font-bold text-orange-500">
                       {{ slide.title }}
                     </h1>
                   </div>
                   <div class="mt-4 w-full">
                     <p
-                      class="text-lg md:text-base text-white transition duration-500"
+                      class="text-lg md:text-lg text-white transition duration-500"
                       v-html="slide.content"
                     ></p>
                   </div>
