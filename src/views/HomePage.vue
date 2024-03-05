@@ -35,6 +35,18 @@ const slides: Slide[] = [
     content:
       '<div class="text-sm md:text-2xl"><p>Đối với mỗi sản phẩm, ngành hàng khách hàng, cách thức thâm nhập thị trường và thử nghiệm sản  luôn khác nhau. Nhận thấy điều đó, NA Fulfillment sẽ hỗ trợ tìm kiếm và thử nghiệm thị trường MIỄN PHÍ cho khách hàng, giúp bạn tối ưu hóa chi phí và thời gian thử nghiệm thị trường.</p></div>',
     images: 'images/slide-04.jpeg'
+  },
+  {
+    title: 'DỊCH VỤ NHẬP HÀNG TẠI TRUNG QUỐC & NỘI ĐỊA CÁC NƯỚC ĐÔNG NAM Á',
+    content:
+      '<div class="text-sm md:text-2xl"><p>NA sẽ hỗ trợ free khách hàng tìm và nhập hàng tại các nước Đông Nam Á trên các nên tảng Shoppe, Lazada , Tiktok</p> <ul class="list-disc p-6"> <li>Nhập hàng tại Trung Quốc đi các nước Đông Nam Á</li><li>Nhập hàng tại các nước Đông Nam Á Hiện tại NA có rất nhiều đối tác cung cấp hàng sỉ tại các nước Đông Nam Á giúp khách hàng nhập hàng với giá nhập tốt nhất</li></ul></div>',
+    images: 'images/service-05.jpg'
+  },
+  {
+    title: 'DỊCH VỤ HẬU MÃI',
+    content:
+      '<div class="text-sm md:text-2xl"><ul class="list-disc p-6"> <li>Hỗ trợ Free Khách Hàng mở tài khoản sàn TMĐT : Shoppe - Tiktok shop - Lazada</li><li>Hỗ trợ OME sản phẩm tại các nước Đông Nam Á : Sữa , TPCN , Mỹ Phẩm ...</li><li>Hỗ trợ xin giấy tờ FDA , Build Brand ...</li><li>Hỗ rợ book Kol , Koc và đội quay dựng video tại các nước Đông Nam Á</li></ul></div>',
+    images: 'images/service-06.jpg'
   }
 ]
 
