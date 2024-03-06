@@ -40,7 +40,7 @@ const slides: Slide[] = [
     title: 'DỊCH VỤ NHẬP HÀNG TẠI TRUNG QUỐC & NỘI ĐỊA CÁC NƯỚC ĐÔNG NAM Á',
     content:
       '<div class="text-sm md:text-2xl"><p>NA sẽ hỗ trợ free khách hàng tìm và nhập hàng tại các nước Đông Nam Á trên các nên tảng Shoppe, Lazada , Tiktok</p> <ul class="list-disc p-6"> <li>Nhập hàng tại Trung Quốc đi các nước Đông Nam Á</li><li>Nhập hàng tại các nước Đông Nam Á Hiện tại NA có rất nhiều đối tác cung cấp hàng sỉ tại các nước Đông Nam Á giúp khách hàng nhập hàng với giá nhập tốt nhất</li></ul></div>',
-    images: 'images/service-05.jpg'
+    images: 'images/banner-05.jpg'
   },
   {
     title: 'DỊCH VỤ HẬU MÃI',
@@ -243,7 +243,7 @@ const showServiceButton6 = ref<boolean>(false)
     title="Quy Trình Fulfillment"
     description="Bằng cách hợp tác với NA Fulfillment, các doanh nghiệp có thể tận dụng các dịch vụ toàn diện trong hệ sinh thái của NA. Điều này cho phép các doanh nghiệp thiết lập một chu trình liền mạch bắt đầu từ thử nghiệm sản phẩm và nhập khẩu hàng hóa từ Trung Quốc đến quản lý các giao dịch thu tiền khi giao hàng. Sự hợp tác như vậy sẽ giúp các doanh nghiệp tối ưu hóa hoạt động của họ và đạt được kết quả kinh doanh đáng kể."
   >
-    <div class="grid grid-cols-1 gap-6 px-4 py-4 mx-auto md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+    <div class="grid grid-cols-1 mx-auto md:grid-cols-2 lg:grid-cols-4 lg:gap-1">
       <div
         class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
       >
@@ -251,7 +251,7 @@ const showServiceButton6 = ref<boolean>(false)
           class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
         >
           <img
-            src="https://www.shopbase.com/blog/wp-content/uploads/2022/03/fulfilment-la-gi-7.jpg"
+            src="https://pst.net.vn/wp-content/uploads/2022/01/2019_09_27______5517c730b837d9907a214976fe4fbef7.jpg"
             alt="ui/ux review check"
             class="object-cover h-48 w-full"
           />
@@ -264,15 +264,164 @@ const showServiceButton6 = ref<boolean>(false)
             <h5
               class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
             >
-              Kho
+              Tư vấn đơn lựa chọn dịch vụ
             </h5>
           </div>
           <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
-            tiếp nhận hàng hoá từ khách hàng gửi về sau đó kiểm đếm phân loại hàng hoá => nhận đơn
-            hàng và đóng gói theo đơn hàng => gửi cho đvvc j&t, flash => sau khi gửi đơn đi thì sẽ
-            có bộ vận vận đơn và care đơn gọi điện nhắn tin cho khách hàng nhận hàng để giảm tỉ lệ
-            hoàn => sau thời gian gửi đơn đi thì sẽ nhận cod và quy đổi thành tiền việt gửi lại cho
-            khách hàng
+            NA Fulfillment sẽ tư vấn cho khách hàng về các dịch vụ mà NA Fulfillment cung cấp, giúp
+            khách hàng lựa chọn gói dịch vụ phù hợp nhất với nhu cầu của họ.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+      >
+        <div
+          class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
+        >
+          <img
+            src="https://niceoffice.b-cdn.net/wp-content/uploads/2021/05/16-dieu-luu-y-khi-ky-hop-dong-cho-thue-van-phong-1.jpeg"
+            alt="ui/ux review check"
+            class="object-cover h-48 w-full"
+          />
+          <div
+            class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"
+          ></div>
+        </div>
+        <div class="p-6">
+          <div class="mb-3 flex items-center justify-between">
+            <h5
+              class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
+            >
+              Tiến hành ký kết hợp đồng trải nghiệm
+            </h5>
+          </div>
+          <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
+            Sau khi quyết định về dịch vụ, khách hàng và công ty sẽ tiến hành ký kết hợp đồng để
+            test dịch vụ.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+      >
+        <div
+          class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
+        >
+          <img
+            src="/images/service-02.jpg"
+            alt="ui/ux review check"
+            class="object-cover h-48 w-full"
+          />
+          <div
+            class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"
+          ></div>
+        </div>
+        <div class="p-6">
+          <div class="mb-3 flex items-center justify-between">
+            <h5
+              class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
+            >
+              Hỗ trợ vận chuyển
+            </h5>
+          </div>
+          <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
+            Trong quá trình vận chuyển hàng hóa, công ty sẽ hỗ trợ khách hàng với các dịch vụ như
+            kiểm tra thị phí miễn phí, sử dụng dịch vụ miễn phí trong vòng 1 tháng, hỗ trợ tìm hàng,
+            nhập hàng và giá cả cho các hoạt động chuyển giao.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+      >
+        <div
+          class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
+        >
+          <img
+            src="https://niceoffice.b-cdn.net/wp-content/uploads/2021/05/16-dieu-luu-y-khi-ky-hop-dong-cho-thue-van-phong-1.jpeg"
+            alt="ui/ux review check"
+            class="object-cover h-48 w-full"
+          />
+          <div
+            class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"
+          ></div>
+        </div>
+        <div class="p-6">
+          <div class="mb-3 flex items-center justify-between">
+            <h5
+              class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
+            >
+              Tiến hành ký kết hợp đồng đối tác
+            </h5>
+          </div>
+          <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
+            Sau khi test về dịch vụ, khách hàng và công ty sẽ tiến hành ký kết hợp đồng, xác định
+            các điều khoản và điều kiện của công việc cung cấp dịch vụ để cùng nhau hợp tác.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+      >
+        <div
+          class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
+        >
+          <img
+            src="/images/banner-05.jpg"
+            alt="ui/ux review check"
+            class="object-cover h-48 w-full"
+          />
+          <div
+            class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"
+          ></div>
+        </div>
+        <div class="p-6">
+          <div class="mb-3 flex items-center justify-between">
+            <h5
+              class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
+            >
+              Xử lý xác nhận đơn hàng
+            </h5>
+          </div>
+          <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
+            Bộ phận Sales sẽ nhận thông tin về đơn hàng từ khách hàng và tiến hành xử lý đơn hàng
+            theo quy trình được đề ra.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+      >
+        <div
+          class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
+        >
+          <img
+            src="/images/service-01.jpg"
+            alt="ui/ux review check"
+            class="object-cover h-48 w-full"
+          />
+          <div
+            class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"
+          ></div>
+        </div>
+        <div class="p-6">
+          <div class="mb-3 flex items-center justify-between">
+            <h5
+              class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
+            >
+              Bàn giao dịch chuyển dịch vụ
+            </h5>
+          </div>
+          <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
+            Kho hàng của công ty sẽ tiếp tục nhận hàng hóa từ khách hàng, đóng gói và bàn giao cho
+            đơn vị vận chuyển. NA Fulfilment cũng sẽ hỗ trợ khách hàng tìm kiếm sản phẩm và cung cấp
+            thông tin về hành trình đơn hàng thông qua API đối với các đơn hàng đã được kết nối.
           </p>
         </div>
       </div>
@@ -297,17 +446,12 @@ const showServiceButton6 = ref<boolean>(false)
             <h5
               class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
             >
-              Sale
+              Tiến hành đối soát công nợ
             </h5>
           </div>
           <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
-            có bao gồm sale mess và sale call
-            <br />
-            + sale mess sẽ vào page của khách hàng và trả lời tin nhắn khách hàng mua sắm sản phẩm
-            và chuyển hoá thành đơn hàng
-            <br />
-            + sale call sẽ vào nhận data từ marketing ( khách hàng thuê fulfill) để gọi tư vấn - các
-            nhận - hẹn nhận đơn hàng
+            NA Fulfilment sẽ tiến hành đối soát công nợ hàng ngày, kiểm tra và cân nhắc các khoản
+            thanh toán từ khách hàng và đối tác vận chuyển.
           </p>
         </div>
       </div>
@@ -319,7 +463,7 @@ const showServiceButton6 = ref<boolean>(false)
           class="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40"
         >
           <img
-            src="https://suno.vn/blog/wp-content/uploads/2018/11/meo-ship-hang-an-toan-cho-cac-shop-online-707x400.jpg"
+            src="https://timo.vn/wp-content/uploads/chuyen-tien.jpg"
             alt="ui/ux review check"
             class="object-cover h-48 w-full"
           />
@@ -332,13 +476,12 @@ const showServiceButton6 = ref<boolean>(false)
             <h5
               class="block font-sans text-xl font-medium leading-snug tracking-normal text-blue-gray-900 antialiased"
             >
-              Vận chuyển
+              Hoàn tất chuyển tiền
             </h5>
           </div>
           <p class="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased">
-            Dịch vụ ff hỗ trợ khách hàng đặt hàng , tìm hàng và deal giá nhập sản phẩm hộ khách hàng
-            tại bản địa hoặc ở trung quốc vận chuyển tới các nước đông nam á .( vận chuyển có đường
-            bộ - đường bay - đường biển )
+            Sau khi kiểm tra và xác thực các tài khoản thanh toán, công ty sẽ thực hiện công việc
+            chuyển tiền cho khách hàng.
           </p>
         </div>
       </div>
@@ -552,11 +695,7 @@ const showServiceButton6 = ref<boolean>(false)
           @mouseleave="showServiceButton5 = false"
         >
           <div class="bg-white rounded-md">
-            <img
-              class="object-cover w-full h-48 rounded-t-md"
-              src="/images/service-05.jpg"
-              alt=""
-            />
+            <img class="object-cover w-full h-48 rounded-t-md" src="/images/banner-05.jpg" alt="" />
           </div>
           <div class="bg-white rounded-md">
             <div class="p-4">

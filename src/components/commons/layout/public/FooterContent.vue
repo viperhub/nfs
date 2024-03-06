@@ -29,20 +29,22 @@
           <p class="font-semibold text-gray-800">Truy cập nhanh</p>
 
           <div class="flex flex-col items-start mt-5 space-y-2">
-            <a
-              href="/"
+            <router-link
+              to="/"
               class="text-gray-600 transition-colors duration-300 hover:underline hover:text-blue-500"
-              >Trang chủ</a
+              >Trang chủ</router-link
             >
-            <a
-              href="/bao-gia"
-              class="text-gray-600 transition-colors duration-300 hover:underline hover:text-blue-500"
-              >Bảng giá</a
             >
-            <a
-              href="/lien-he"
+            <router-link
+              to="/bao-gia"
               class="text-gray-600 transition-colors duration-300 hover:underline hover:text-blue-500"
-              >Liên hệ</a
+              >Bảng giá</router-link
+            >
+            >
+            <router-link
+              to="/lien-he"
+              class="text-gray-600 transition-colors duration-300 hover:underline hover:text-blue-500"
+              >Liên hệ</router-link
             >
           </div>
         </div>
