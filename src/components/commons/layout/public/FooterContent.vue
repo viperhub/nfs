@@ -34,13 +34,13 @@
               class="text-gray-600 transition-colors duration-300 hover:underline hover:text-blue-500"
               >Trang chủ</router-link
             >
-            >
+
             <router-link
               to="/bao-gia"
               class="text-gray-600 transition-colors duration-300 hover:underline hover:text-blue-500"
               >Bảng giá</router-link
             >
-            >
+
             <router-link
               to="/lien-he"
               class="text-gray-600 transition-colors duration-300 hover:underline hover:text-blue-500"
