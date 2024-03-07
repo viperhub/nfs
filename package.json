@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "serve": "serve --single --listen 5173 dist",
+    "serve": "serve --single --listen 8087 dist",
     "preview": "vite preview",
     "lint": "eslint --cache --ext .ts,vue --ignore-path .gitignore .",
     "prettier": "prettier --write --ignore-path .gitignore ."
