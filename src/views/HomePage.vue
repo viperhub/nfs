@@ -15,37 +15,37 @@ const slides: Slide[] = [
   {
     title: 'Dịch vụ setup kho tại Đông Nam Á',
     content:
-      '<div class="text-sm md:text-2xl"><p>NA Fulfillment sẽ hỗ trợ khách hàng thành lập đội ngũ nội bộ tại thị trường Đông Nam Á, bao gồm:</p><ul class="list-disc p-6"><li>Hoạt động văn phòng, kho bãi</li><li>Tuyển dụng và đào tạo Telesale, CSR, Bill of Lading, Logistics Team - Hồ sơ doanh nghiệp, thủ tục thuế, thủ tục pháp lý</li><li>Đăng ký tài khoản VIP riêng tại các đơn vị vận chuyển lớn như J&T, Ninja, Flash với mức chiết khấu cao 50% phí vận chuyển và đồng giá 1,5% phí COD</li></ul><p>Sau đó, NA Fulfillment sẽ hỗ trợ khách hàng vận hành đội ngũ nội bộ cũng như xử lý các vấn đề phát sinh tại Thailand, Malaysia, Philippines.</p></div>',
+      '<div class="text-sm md:text-xl"><p>NA Fulfillment sẽ hỗ trợ khách hàng thành lập đội ngũ nội bộ tại thị trường Đông Nam Á, bao gồm:</p><ul class="list-disc p-6"><li>Hoạt động văn phòng, kho bãi</li><li>Tuyển dụng và đào tạo Telesale, CSR, Bill of Lading, Logistics Team - Hồ sơ doanh nghiệp, thủ tục thuế, thủ tục pháp lý</li><li>Đăng ký tài khoản VIP riêng tại các đơn vị vận chuyển lớn như J&T, Ninja, Flash với mức chiết khấu cao 50% phí vận chuyển và đồng giá 1,5% phí COD</li></ul><p>Sau đó, NA Fulfillment sẽ hỗ trợ khách hàng vận hành đội ngũ nội bộ cũng như xử lý các vấn đề phát sinh tại Thailand, Malaysia, Philippines.</p></div>',
     images: 'images/slide-01.jpg'
   },
   {
     title: 'FULFILLMENT SERVICE',
     content:
-      '<div class="text-sm md:text-2xl"><p>NA cung cấp các dịch vụ hoàn thiện đơn hàng bao gồm:</p> <ul class="list-disc p-8"> <li>Telesales</li><li>Chat mess</li><li>Chăm sóc khách hàng</li><li>Logistics</li><li>Storage</li></ul><p >NA Fulfillment luôn tự hào với đội ngũ vận hành chuyên nghiệp, có nhiều năm kinh nghiệm và hỗ trợ hàng chục công ty với 400.000 đơn hàng tại Thailand, Malaysia, Philippines.</p></div>',
+      '<div class="text-sm md:text-xl"><p>NA cung cấp các dịch vụ hoàn thiện đơn hàng bao gồm:</p> <ul class="list-disc p-8"> <li>Telesales</li><li>Chat mess</li><li>Chăm sóc khách hàng</li><li>Logistics</li><li>Storage</li></ul><p >NA Fulfillment luôn tự hào với đội ngũ vận hành chuyên nghiệp, có nhiều năm kinh nghiệm và hỗ trợ hàng chục công ty với 400.000 đơn hàng tại Thailand, Malaysia, Philippines.</p></div>',
     images: 'images/slide-02.jpg'
   },
   {
     title: 'DỊCH VỤ VẬN CHUYỂN QUỐC TẾ',
     content:
-      '<div class="text-sm md:text-2xl"><p>Hiện nay NA Fulfillment là một trong những đại lý lớn về vận chuyển quốc tế nên giá vận chuyển luôn được đảm bảo tối ưu nhất cho khách hàng trong hệ thống NA như sau:</p> <ul class="list-disc p-6"> <li>Vận chuyển Trung Quốc, Việt Nam</li><li>Vận chuyển Trung Quốc -> Các nước Đông Nam Á </li><li>Vận chuyển Việt Nam -> Các nước Đông Nam Á </li></ul></div>',
+      '<div class="text-sm md:text-xl"><p>Hiện nay NA Fulfillment là một trong những đại lý lớn về vận chuyển quốc tế nên giá vận chuyển luôn được đảm bảo tối ưu nhất cho khách hàng trong hệ thống NA như sau:</p> <ul class="list-disc p-6"> <li>Vận chuyển Trung Quốc, Việt Nam</li><li>Vận chuyển Trung Quốc -> Các nước Đông Nam Á </li><li>Vận chuyển Việt Nam -> Các nước Đông Nam Á </li></ul></div>',
     images: 'images/slide-03.jpg'
   },
   {
     title: 'HỖ TRỢ KIỂM TRA THỊ TRƯỜNG MIỄN PHÍ',
     content:
-      '<div class="text-sm md:text-2xl"><p>Đối với mỗi sản phẩm, ngành hàng khách hàng, cách thức thâm nhập thị trường và thử nghiệm sản  luôn khác nhau. Nhận thấy điều đó, NA Fulfillment sẽ hỗ trợ tìm kiếm và thử nghiệm thị trường MIỄN PHÍ cho khách hàng, giúp bạn tối ưu hóa chi phí và thời gian thử nghiệm thị trường.</p></div>',
+      '<div class="text-sm md:text-xl"><p>Đối với mỗi sản phẩm, ngành hàng khách hàng, cách thức thâm nhập thị trường và thử nghiệm sản  luôn khác nhau. Nhận thấy điều đó, NA Fulfillment sẽ hỗ trợ tìm kiếm và thử nghiệm thị trường MIỄN PHÍ cho khách hàng, giúp bạn tối ưu hóa chi phí và thời gian thử nghiệm thị trường.</p></div>',
     images: 'images/slide-04.jpeg'
   },
   {
     title: 'DỊCH VỤ NHẬP HÀNG TẠI TRUNG QUỐC & NỘI ĐỊA CÁC NƯỚC ĐÔNG NAM Á',
     content:
-      '<div class="text-sm md:text-2xl"><p>NA sẽ hỗ trợ free khách hàng tìm và nhập hàng tại các nước Đông Nam Á trên các nên tảng Shoppe, Lazada , Tiktok</p> <ul class="list-disc p-6"> <li>Nhập hàng tại Trung Quốc đi các nước Đông Nam Á</li><li>Nhập hàng tại các nước Đông Nam Á Hiện tại NA có rất nhiều đối tác cung cấp hàng sỉ tại các nước Đông Nam Á giúp khách hàng nhập hàng với giá nhập tốt nhất</li></ul></div>',
+      '<div class="text-sm md:text-xl"><p>NA sẽ hỗ trợ free khách hàng tìm và nhập hàng tại các nước Đông Nam Á trên các nên tảng Shoppe, Lazada , Tiktok</p> <ul class="list-disc p-6"> <li>Nhập hàng tại Trung Quốc đi các nước Đông Nam Á</li><li>Nhập hàng tại các nước Đông Nam Á Hiện tại NA có rất nhiều đối tác cung cấp hàng sỉ tại các nước Đông Nam Á giúp khách hàng nhập hàng với giá nhập tốt nhất</li></ul></div>',
     images: 'images/banner-05.jpg'
   },
   {
     title: 'DỊCH VỤ HẬU MÃI',
     content:
-      '<div class="text-sm md:text-2xl"><ul class="list-disc p-6"> <li>Hỗ trợ Free Khách Hàng mở tài khoản sàn TMĐT : Shoppe - Tiktok shop - Lazada</li><li>Hỗ trợ OME sản phẩm tại các nước Đông Nam Á : Sữa , TPCN , Mỹ Phẩm ...</li><li>Hỗ trợ xin giấy tờ FDA , Build Brand ...</li><li>Hỗ rợ book Kol , Koc và đội quay dựng video tại các nước Đông Nam Á</li></ul></div>',
+      '<div class="text-sm md:text-xl"><ul class="list-disc p-6"> <li>Hỗ trợ Free Khách Hàng mở tài khoản sàn TMĐT : Shoppe - Tiktok shop - Lazada</li><li>Hỗ trợ OME sản phẩm tại các nước Đông Nam Á : Sữa , TPCN , Mỹ Phẩm ...</li><li>Hỗ trợ xin giấy tờ FDA , Build Brand ...</li><li>Hỗ rợ book Kol , Koc và đội quay dựng video tại các nước Đông Nam Á</li></ul></div>',
     images: 'images/service-06.jpg'
   }
 ]
@@ -175,7 +175,7 @@ const showServiceButton6 = ref<boolean>(false)
             <li>Cung cấp dịch vụ vận chuyển quốc tế với GIÁ RẺ nhất thị trường</li>
             <li>
               Thuê tài khoản vận chuyển nội địa như J&T Express, Ninja Va,Express với chiết khấu vận
-              chuyển lên tới 100% và COD đồng giá 1,5%
+              chuyển lên tới 70% và COD đồng giá 1,5%
             </li>
           </ul>
         </div>
